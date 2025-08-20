@@ -1,10 +1,10 @@
 # Saldo Simples - Aplicativo de Controle de Despesas Pessoais
 
-`CURSO`: ADS - Análise e Desenvolvimento de Sistemas
+`CURSO : ADS - Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`- Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio
+`DISCIPLINA : Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio` 
 
-`SEMESTRE`- 2025/02
+`SEMESTRE : 2025/02` 
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
