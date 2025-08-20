@@ -2,6 +2,14 @@
 
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
+- - - - - - - - - - - - - - - 
+
+Em um cenário onde o consumo é estimulado constantemente e a educação financeira ainda é deficiente para grande parte da população, o controle de finanças pessoais torna-se essencial. Muitas pessoas enfrentam dificuldades para gerenciar seus gastos e entender para onde seu dinheiro está indo ao longo do mês.
+ 
+Com o aumento da utilização de smartphones e o crescimento dos aplicativos mobile, surge a oportunidade de facilitar esse controle financeiro por meio de uma ferramenta acessível, intuitiva e eficiente. O projeto, portanto, propõe o desenvolvimento de um aplicativo mobile de controle de despesas pessoais, como proposta de solução prática para essa demanda cotidiana.
+
+- - - - - - - - - - - - - - - 
+
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
