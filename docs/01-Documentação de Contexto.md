@@ -1,9 +1,5 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
-
-- - - - - - - - - - - - - - - 
-
 Em um cenário onde o consumo é estimulado constantemente e a educação financeira ainda é deficiente para grande parte da população, o controle de finanças pessoais torna-se essencial. Muitas pessoas enfrentam dificuldades para gerenciar seus gastos e entender para onde seu dinheiro está indo ao longo do mês.
  
 Com o aumento da utilização de smartphones e o crescimento dos aplicativos mobile, surge a oportunidade de facilitar esse controle financeiro por meio de uma ferramenta acessível, intuitiva e eficiente. O projeto, portanto, propõe o desenvolvimento de um aplicativo mobile de controle de despesas pessoais, como proposta de solução prática para essa demanda cotidiana.
@@ -11,50 +7,49 @@ Com o aumento da utilização de smartphones e o crescimento dos aplicativos mob
 - - - - - - - - - - - - - - - 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+A maioria dos brasileiros enfrenta dificuldades no controle de suas finanças pessoais devido a fatores como:
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+- Falta de Organização: Muitos não registram seus gastos e perdem o controle de quanto já consumiram ao longo do mês.
+- Baixa Aderência a Métodos Manuais: Tentativas de anotar gastos em papel ou planilhas geralmente falham pela falta de praticidade.
+- Dificuldade em Diferenciar Despesas: Mistura de gastos pessoais e profissionais, além da ausência de categorização clara, dificulta a análise do orçamento.
+- Inexistência de Ferramentas Simples: Apesar de existirem aplicativos de finanças, muitos são complexos, cheios de funcionalidades desnecessárias ou pouco intuitivos para o usuário comum.
+- Imprevisibilidade Financeira: Pessoas com rendas variáveis (freelancers, motoristas de aplicativo) não conseguem planejar adequadamente o mês sem um acompanhamento diário.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-- - - - - - - - - - - - - - - 
+Essas lacunas resultam em descontrole financeiro, endividamento e maior dificuldade para alcançar objetivos pessoais.
 
 Grande parte da população não possui o hábito de registrar e acompanhar seus gastos diários, o que compromete o planejamento financeiro e a tomada de decisões conscientes sobre o uso do dinheiro. A falta de ferramentas simples e funcionais contribui para esse comportamento.
-
-- - - - - - - - - - - - - - - 
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+- - - - - - - - - - - - - - -
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolver um aplicativo mobile simples e funcional que permita aos usuários registrar receitas e despesas, visualizar relatórios financeiros e controlar seu orçamento de forma prática, intuitiva e acessível.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+### Objetivos Específicos
+- Permitir o cadastro de despesas e receitas, categorizadas como fixas ou variáveis.
+- Disponibilizar relatórios simples (gráficos e listas) para acompanhamento por período e categoria.
+- Oferecer alertas e notificações sobre orçamento próximo de ser estourado ou pagamentos recorrentes.
+- Permitir a definição de orçamentos mensais por categoria.
+- Disponibilizar opção de exportação/backup em CSV ou Excel.
+- Funcionar de forma eficiente mesmo offline, armazenando dados no dispositivo.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O projeto Saldo Simples é relevante porque:
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+- Promoção da Educação Financeira: Incentiva hábitos de registro e planejamento, ajudando usuários a tomar decisões financeiras mais conscientes.
+- Acessibilidade e Inclusão: Diferente de soluções complexas, o app é projetado para ser intuitivo, simples e útil inclusive para pessoas com pouca familiaridade tecnológica.
+- Impacto Social: Auxilia no combate ao endividamento e promove maior estabilidade financeira para diferentes perfis de usuários.
+- Aplicação Prática de Conhecimentos: Viabiliza a integração de conceitos de desenvolvimento mobile, UX design e análise de requisitos aprendidos em cursos acadêmicos e profissionais.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O Saldo Simples atende diferentes perfis de usuários, incluindo estudantes, trabalhadores formais e informais, freelancers e donas de casa.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Exemplos de Personas:
+- João (22 anos, estudante): quer organizar melhor seus gastos para não ficar sem dinheiro antes do fim do mês.
+- Carla (30 anos, assistente administrativa): tenta anotar em caderno, mas precisa de algo digital e fácil no celular.
+- Marcos (45 anos, motorista de aplicativo): precisa acompanhar renda variável e controlar contas fixas.
+- Ana (55 anos, dona de casa): quer uma ferramenta simples e clara, com relatórios fáceis de entender.
+- Lucas (28 anos, freelancer): busca separar despesas pessoais e profissionais para calcular o lucro real.
