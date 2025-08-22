@@ -28,8 +28,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Estudante | Controlar melhor seus gastos diários| Evitar ficar sem dinheiro antes do fim do mês|
+|Trabalhador formal|Registrar despesas de forma rápida no celular|Acompanhar gastos sem esforço e planejar melhor o salário|
+|Profissional autônomo|Separar gastos pessoais dos profissionais|Calcular lucro líquido e ter maior previsibilidade financeira|
+|Dona de casa|Visualizar relatórios simples e claros|Controlar pequenos gastos do lar e ajudar no planejamento familiar|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -79,15 +81,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01	| Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria.|	ALTA|
+|RF-02|	Classificar despesas como fixas ou variáveis.|	ALTA|
+|RF-03|	Definir orçamento mensal por categoria, com alertas ao se aproximar do limite.| ALTA|
+|RF-04|	Exibir relatórios simples (gráficos comparativos entre meses e gastos por categoria).|	ALTA|
+|RF-05|	Permitir exportação dos dados em CSV ou Excel.|	MÉDIA|
+|RF-06|	Permitir cadastro de despesas recorrentes (ex: aluguel, assinatura).|	MÉDIA|
+|RF-07|	Exibir resumo semanal de gastos e saldo disponível.|	MÉDIA|
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01|	O aplicativo deve ser leve e funcionar bem em smartphones com recursos limitados.|	ALTA|
+|RNF-02|	Deve funcionar offline, armazenando dados localmente no dispositivo.|	ALTA|
+|RNF-03|	A interface deve ser simples, intuitiva e acessível até para usuários com pouca familiaridade digital.|	ALTA|
+|RNF-04|	Deve garantir backup/exportação para evitar perda de dados ao trocar de celular.|	MÉDIA|
+|RNF-05|	O tempo de resposta das telas deve ser inferior a 2 segundos para operações básicas.|	MÉDIA|
+ 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
