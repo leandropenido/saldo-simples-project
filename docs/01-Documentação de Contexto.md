@@ -48,8 +48,8 @@ O projeto Saldo Simples é relevante porque:
 O Saldo Simples atende diferentes perfis de usuários, incluindo estudantes, trabalhadores formais e informais, freelancers e donas de casa.
 
 Exemplos de Personas:
-- João (22 anos, estudante): quer organizar melhor seus gastos para não ficar sem dinheiro antes do fim do mês.
-- Carla (30 anos, assistente administrativa): tenta anotar em caderno, mas precisa de algo digital e fácil no celular.
-- Marcos (45 anos, motorista de aplicativo): precisa acompanhar renda variável e controlar contas fixas.
-- Ana (55 anos, dona de casa): quer uma ferramenta simples e clara, com relatórios fáceis de entender.
-- Lucas (28 anos, freelancer): busca separar despesas pessoais e profissionais para calcular o lucro real.
+- João Henrique (22 anos, estudante): quer organizar melhor seus gastos para não ficar sem dinheiro antes do fim do mês.
+- Carla Dias (30 anos, assistente administrativa): tenta anotar em caderno, mas precisa de algo digital e fácil no celular.
+- Marcos Paulo (45 anos, motorista de aplicativo): precisa acompanhar renda variável e controlar contas fixas.
+- Ana Maria (55 anos, dona de casa): quer uma ferramenta simples e clara, com relatórios fáceis de entender.
+- Lucas Pinto (28 anos, freelancer): busca separar despesas pessoais e profissionais para calcular o lucro real.
