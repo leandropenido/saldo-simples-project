@@ -37,6 +37,18 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 | **Angústias e Frustrações** | • Em função da sua renda nao ser fixa e variar devido a fluxos de corridas, ele precisa de um controle diário para saber se conseguira pagar todas as contas do mês e guardar na poupança o que sobrar.|
 | **Motivações** | • Deseja ter uma visão clara de quanto fez e quanto pode gastar sem comprometer as despesas fixas.                                                                                                                            |
 | **Expectativas** | • Uma plataforma que permita reorganizar suas despesas e ainda ajuda-lo a saber quanto podera guardar.                                                                                                                     |
+| | **Persona 4: Ana Maria - Dona de casa**                                                                                                                                                                                                                                                                                                                                      |
+|---|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Foto** | <img src="img/persona3-45.png" alt="Marcos Paulo" width="150" height="auto">                                                                                                                                                                                                                                                                                                                  |
+| **Idade** | 55 anos                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Ocupação** | Dona de casa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Renda Mensal** | • R$XXXX,XX  (pode variar)                                                                                                                                                                                                                                                                     |
+| **Angústias e Frustrações** | • BLABLABLABLABLABLA.|
+| **Motivações** | • BLABLABLABLABLABLA.                                                                                                                           |
+| **Expectativas** | • quer uma ferramenta simples e clara, com relatórios fáceis de entender. 
+
+
+
 
 ## Histórias de Usuários
 
