@@ -19,7 +19,7 @@ Com o aumento da utilização de smartphones e o crescimento dos aplicativos mob
 ## Integrantes
 
 * Barbara Farias da Silva - 1524495@sga.pucminas.br
-* João Rezende Vieira - joao.vieira.1400466@sga.pucminas.br
+* João Rezende Vieira - 1400466@sga.pucminas.br
 * Leandro Alves Penido - 1540390@sga.pucminas.br
 * Lucas Gabriel Oliveira Dias - 1529160@sga.pucminas.br
 * Pedro Andrade Rodrigues - 1564454@sga.pucminas.br
