@@ -49,6 +49,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Trabalhador formal|Registrar despesas de forma rápida no celular|Acompanhar gastos sem esforço e planejar melhor o salário|
 |Profissional autônomo|Separar gastos pessoais dos profissionais|Calcular lucro líquido e ter maior previsibilidade financeira|
 |Dona de casa|Visualizar relatórios simples e claros|Controlar pequenos gastos do lar e ajudar no planejamento familiar|
+|Profissional autônomo|Quero definir metas|Acompanhar meu progresso e me motivar.|
+|Usuário|Quero ver meu saldo atualizado|Saber exatamente quanto ainda tenho disponível.|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
