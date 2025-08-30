@@ -6,7 +6,7 @@
 
 `SEMESTRE : 2025/02` 
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+
 
 - - - - - - - - - - -
 
