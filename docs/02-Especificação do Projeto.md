@@ -190,6 +190,9 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
+![Saldo-Simples-Gantt](https://github.com/user-attachments/assets/923fb3c3-95e4-4f98-ae70-81e365daf217)
+
+
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
