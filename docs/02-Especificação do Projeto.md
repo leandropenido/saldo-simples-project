@@ -171,6 +171,9 @@ A matriz deve contemplar todos os elementos relevantes que fazem parte do sistem
 
 ![Screenshot_1](https://github.com/user-attachments/assets/06a423df-f1ce-431e-b19b-169f8a76871a)
 
+![Matriz-Rastreabilidade-Versao-0001](https://github.com/user-attachments/assets/361eec74-4b6e-4615-977f-e35b430ff3af)
+
+
 
 ![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
 
