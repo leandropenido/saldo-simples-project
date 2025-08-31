@@ -204,7 +204,7 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![Saldo Simples Timeline](https://github.com/user-attachments/assets/061594b0-2c18-4bc8-a367-ace0a7d17f4c)
 
 ## Gestão de Orçamento
 
