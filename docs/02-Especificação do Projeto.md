@@ -65,7 +65,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Novo usuario | cadastrar com e-mail e senha|Começar a usar o app e registrar minhas despesas |
+|Novo usuario | Cadastrar com e-mail e senha|Começar a usar o app e registrar minhas despesas |
 |Usuario | Recuperar minha senha por e-mail|Não perder acesso à minha conta em caso de esquecimento. |
 |Estudante | Controlar melhor seus gastos diários| Evitar ficar sem dinheiro antes do fim do mês|
 |Trabalhador formal|Registrar despesas de forma rápida no celular|Acompanhar gastos sem esforço e planejar melhor o salário|
