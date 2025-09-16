@@ -126,7 +126,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-02|	Classificar despesas como fixas ou variáveis.|	ALTA|
 |RF-03|	Definir orçamento mensal por categoria, com alertas ao se aproximar do limite.| ALTA|
 |RF-04|	Exibir relatórios simples (gráficos comparativos entre meses e gastos por categoria).|	ALTA|
-|RF-05|	Permitir exportação dos dados em CSV ou Excel.|	MÉDIA|
+|RF-05|	Permitir exportação dos dados em PDF.|	MÉDIA|
 |RF-06|	Permitir cadastro de despesas recorrentes (ex: aluguel, assinatura).|	MÉDIA|
 |RF-07|	Exibir resumo semanal de gastos e saldo disponível.|	MÉDIA|
 
