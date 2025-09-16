@@ -123,11 +123,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01	| Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria.|	ALTA|
-|RF-02|	Classificar despesas como fixas ou variáveis.|	ALTA|
+|RF-02|	Classificar despesas como recorrentes ou variáveis.|	ALTA|
 |RF-03|	Definir orçamento mensal por categoria, com alertas ao se aproximar do limite.| ALTA|
 |RF-04|	Exibir relatórios simples (gráficos comparativos entre meses e gastos por categoria).|	ALTA|
 |RF-05|	Permitir exportação dos dados em PDF.|	MÉDIA|
-|RF-06|	Permitir cadastro de despesas recorrentes (ex: aluguel, assinatura).|	MÉDIA|
+|RF-06|	Prover insights com base nos dados enviados.|	MÉDIA|
 |RF-07|	Exibir resumo semanal de gastos e saldo disponível.|	MÉDIA|
 
 
