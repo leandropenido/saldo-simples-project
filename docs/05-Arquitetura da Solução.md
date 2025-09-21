@@ -21,7 +21,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+> - [Saldo Simples DER](https://github.com/user-attachments/assets/c85d5f7b-28cd-4833-9ae1-a5bd0f1bf2e5)
 
 ## Esquema Relacional
 
