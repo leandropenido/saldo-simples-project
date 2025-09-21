@@ -105,13 +105,38 @@ Os problemas atuais que justificam o desenvolvimento de aplicativo Saldo Simples
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+[ Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias. ] 
 
-### Processo 1 – NOME DO PROCESSO
+O Saldo Simples é um aplicativo móvel para controle de despesas pessoais. Sua proposta é oferecer uma solução intuitiva, acessível e prática para usuários com pouca familiaridade tecnológica. O sistema busca apoiar a educação financeira e evitar o descontrole orçamentário, contribuindo para as metas estratégicas de educação financeira, redução de endividamento e melhor planejamento doméstico
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+Limites do Sistema:
+
+- Foco em controle de despesas pessoais (não substitui contabilidade empresarial).
+
+- Funciona offline com armazenamento local e oferece backup/exportação.
+
+- Integra apenas funcionalidades essenciais: cadastro de receitas/despesas, definição de orçamentos, relatórios simples e alertas.
+
+### Processo 1 – CONTROLE DE DESPESAS
+
+[ Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. ]
 
 ![Processo 1](img/02-bpmn-proc1.png)
+
+Oportunidades de Melhoria:
+
+- Automatização de validações: O processo atual só valida orçamento após o registro; integrar previsões ou alertas proativos melhoraria a experiência.
+
+- Visualizações mais dinâmicas: Relatórios básicos podem evoluir para dashboards interativos e indicadores de desempenho.
+
+- Integração com fontes externas: Importação automática de extratos bancários ou sincronização na nuvem.
+
+- Gamificação e metas financeiras: Tornar o uso mais motivador para aumentar a aderência.
+
+- Experiência do usuário: Melhorar usabilidade com atalhos para despesas recorrentes e categorização inteligente.
+
+![BPMN_Controle_de_Despesas](https://github.com/user-attachments/assets/8ffc8960-89f6-4993-b318-c3fe2c334b27)
+
 
 ### Processo 2 – NOME DO PROCESSO
 
