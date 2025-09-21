@@ -20,11 +20,31 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 > **Links Úteis**:
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
-## Wireframes
+## Wireframes 
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+## HomePage
+![Screenshot_2](https://github.com/user-attachments/assets/ff9e16c4-7ab0-4957-b590-faef29e13545)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+## Cadastro
+![Screenshot_1](https://github.com/user-attachments/assets/bfd2ddeb-9586-46ae-ae6e-5e0f96286299)
+
+## Login
+![Screenshot_3](https://github.com/user-attachments/assets/91c04954-0fee-4b77-9400-7ccacaba23d0)
+
+## Controle de Despesas
+![Screenshot_4](https://github.com/user-attachments/assets/2f2e1515-083a-43f2-bb23-1f3f4a90420e)
+
+## Cadastro de Despesas
+![Screenshot_5](https://github.com/user-attachments/assets/21389cb0-84be-477d-8bf3-02e91a3b380d)
+
+## Gráfico Interativo
+![Screenshot_6](https://github.com/user-attachments/assets/80240eea-7dd9-428e-9879-79b7434df241)
+
+## Relatório de Gastos
+![Screenshot_7](https://github.com/user-attachments/assets/ac800457-13b2-47c1-a5af-9b95f990a7cd)
+
+
+
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
