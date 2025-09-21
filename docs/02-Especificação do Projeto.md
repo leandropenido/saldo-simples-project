@@ -119,10 +119,6 @@ Limites do Sistema:
 
 ### Processo 1 – CONTROLE DE DESPESAS
 
-[ Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. ]
-
-![Processo 1](img/02-bpmn-proc1.png)
-
 Oportunidades de Melhoria:
 
 - Automatização de validações: O processo atual só valida orçamento após o registro; integrar previsões ou alertas proativos melhoraria a experiência.
