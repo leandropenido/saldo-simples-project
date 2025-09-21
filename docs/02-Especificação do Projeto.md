@@ -89,7 +89,7 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 [ Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional.  ] 
 
-Os problemas atuais que justificam o desenvolvimento de aplicativo Saldo Simples são:
+Os problemas atuais que justificam elaboração deste processo são:
 
 - Falta de organização financeira: Usuários esquecem de registrar gastos ou usam métodos manuais ineficientes.
 
