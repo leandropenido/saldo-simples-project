@@ -65,56 +65,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Novo usuario | Cadastrar com e-mail e senha|Começar a usar o app e registrar minhas despesas |
-|Usuario | Recuperar minha senha por e-mail|Não perder acesso à minha conta em caso de esquecimento. |
-|Estudante | Controlar melhor seus gastos diários| Evitar ficar sem dinheiro antes do fim do mês|
-|Estudante |Registrar despesas de forma rápida no celular|Acompanhar gastos de uma forma mais simples|
-|Estudante|Saber o que posso ou não gastar |Evitar dívidas desnecessárias em quanto estou estudando|
-|Estudante|Visualizar relatórios simples e claros|Controlar pequenos gastos com os estudos|
-
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Novo usuario | Cadastrar com e-mail e senha|Começar a usar o app e registrar minhas despesas |
-|Usuario | Recuperar minha senha por e-mail|Não perder acesso à minha conta em caso de esquecimento. |
-|Assistente | Controlar melhor os meus gastos| Evitar muitas parcelas desnecessárias|
-|Assistente |Registrar despesas de forma rápida no celular|Acompanhar gastos através do Saldo Simples|
-|Assistente|Separar gastos pessoais dos profissionais| Visualizar os gráficos de despesas|
-|Assistente|Ter em mente o que está sendo mais difícil de controlar |Discernir melhor quando decidir comprar algo|
-|Assistente|Quero definir metas|Acompanhar meu progresso e me motivar.|
-
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Novo usuario | Cadastrar com e-mail e senha|Começar a usar o app e registrar minhas despesas |
-|Usuario | Recuperar minha senha por e-mail|Não perder acesso à minha conta em caso de esquecimento. |
-|Motorista| Controlar melhor seus gastos diários| Evitar ficar sem dinheiro antes do fim do mês|
-|Motorista|Registrar despesas de forma rápida no celular|Acompanhar gastos sem esforço e planejar melhor o salário|
-|Motorista|Separar gastos pessoais dos profissionais|Calcular lucro líquido e ter maior previsibilidade financeira|
-|Motorista|Visualizar relatórios simples e claros|Controlar pequenos gastos do lar e ajudar no planejamento familiar|
-|Motorista|Quero definir metas|Acompanhar meu progresso e me motivar.|
-|Usuário|Quero ver meu saldo atualizado|Saber exatamente quanto ainda tenho disponível.|
-
-
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Novo usuario | Cadastrar com e-mail e senha|Começar a usar o app e registrar minhas despesas |
-|Usuario | Recuperar minha senha por e-mail|Não perder acesso à minha conta em caso de esquecimento. |
-|Dona de Casa | Controlar melhor seus gastos diários| Evitar ficar sem dinheiro antes do fim do mês|
-|Dona de Casa|Registrar despesas de forma rápida no celular|Acompanhar gastos sem esforço e planejar melhor o salário|
-|Dona de casa|Visualizar relatórios simples e claros|Controlar pequenos gastos do lar e ajudar no planejamento familiar|
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Novo usuario | Cadastrar com e-mail e senha|Começar a usar o app e registrar minhas despesas |
-|Usuario | Recuperar minha senha por e-mail|Não perder acesso à minha conta em caso de esquecimento. |
-|Freelancer | Controlar melhor seus gastos diários| Evitar ficar sem dinheiro antes do fim do mês|
-|Freelancer|Registrar despesas de forma rápida no celular|Acompanhar gastos sem esforço e planejar melhor o salário|
-|Freelancer|Separar gastos pessoais dos profissionais|Calcular lucro líquido e ter maior previsibilidade financeira|
-|Freelancer|Visualizar relatórios simples e claros|Controlar pequenos gastos do lar e ajudar no planejamento familiar|
-|Freelancer|Quero parar de gastar por impulso|Acompanhar o que ando gastando sem precisar |
-|Usuário|Quero ver meu saldo atualizado|Saber exatamente quanto ainda tenho disponível.|
+|Joao Henrique | Cadastrar com e-mail e senha | Começar a usar o app e registrar minhas despesas. |
+|Joao Henrique | Recuperar minha senha por e-mail | Não perder acesso à minha conta em caso de esquecimento. |
+|Joao Henrique | Saber o que posso ou não gastar |Evitar dívidas desnecessárias em quanto estou estudando|
+|Carla Dias |Ter em mente o que está sendo mais difícil de controlar |Discernir melhor quando decidir comprar algo|
+|Carla Dias |Visualizar relatórios simples e claros |Controlar pequenos gastos do lar e ajudar no planejamento familiar|
+|Marcos Paulo | Separar gastos pessoais dos profissionais | Calcular lucro líquido e ter maior previsibilidade financeira |
+|Marcos Paulo |Quero definir metas | Acompanhar meu progresso e me motivar.|
+|Ana Rita |Registrar despesas de forma rápida no celular | Acompanhar gastos de uma forma mais simples. |
+|Lucas Matos |Quero ver meu saldo atualizado | Saber exatamente quanto ainda tenho disponível.|
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
