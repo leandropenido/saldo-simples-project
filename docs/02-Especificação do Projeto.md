@@ -147,7 +147,10 @@ Apresente aqui os principais indicadores de desempenho e algumas metas para o pr
 Usar o seguinte modelo: 
 
 ![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori.
+
+![Indicadores-Tabela - Controle-de-Despesas](https://github.com/user-attachments/assets/cf499a79-fc24-4640-bc59-3fc93ac31e08)
+
 
 ## Requisitos
 
