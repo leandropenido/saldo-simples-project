@@ -292,7 +292,7 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
 
-<img width="1478" height="1456" alt="Saldo-Simples-Gantt" src="https://github.com/user-attachments/assets/59b2bb08-b528-491d-b553-e4feeda2812b" />
+![Saldo Simples Gerenciamento de tempo](https://github.com/user-attachments/assets/e4d59349-bfc7-4bc3-8000-30643dd7a2ab)
 
 
 
