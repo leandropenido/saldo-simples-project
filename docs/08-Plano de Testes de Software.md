@@ -15,6 +15,7 @@ Por exemplo:
 | Passos 	| - Abrir app → “Criar Conta”  <br> - Informar nome, e-mail e senha <br> - Confirmar registro <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
 |Critério de Êxito | - Mensagem de sucesso e acesso à tela inicial. |
 |  	|  	|
+
 | **Caso de Teste** 	| **CT02 – Realizar login** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - 	Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria. |
@@ -22,6 +23,7 @@ Por exemplo:
 | Passos 	| - Abrir app → “Entrar”   <br> - Inserir e-mail e senha <br> - Clicar em “Login” <br> |
 |Critério de Êxito | - Mensagem de sucesso e acesso à tela inicial. |
 |  	|  	|
+
 | **Caso de Teste** 	| **CT03 – Recuperar senha** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - 	Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria.  |
@@ -29,17 +31,16 @@ Por exemplo:
 | Passos 	| - Tela de login → “Esqueci minha senha”  <br> - Inserir e-mail válido <br> - Confirmar <br>  |
 |Critério de Êxito | - E-mail de redefinição recebido. |
 |  	|  	|
+
+
 | **Caso de Teste** 	| **CT04 – Registrar despesa** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - 	Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria. <br> RF-02 - Classificar despesas como recorrentes ou variáveis.|
 | Objetivo do Teste 	| Verificar se o usuário consegue se registrar com e-mail e senha. |
 | Passos 	| - Abrir app → “Criar Conta”  <br> - Informar nome, e-mail e senha <br> - Confirmar registro <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
 |Critério de Êxito | - Mensagem de sucesso e acesso à tela inicial. |
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-01 - 	Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se registrar com e-mail e senha. |
-| Passos 	| - Abrir app → “Criar Conta”  <br> - Informar nome, e-mail e senha <br> - Confirmar registro <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - Mensagem de sucesso e acesso à tela inicial. |
+|  	|  	|
+
 
  
 > **Links Úteis**:
