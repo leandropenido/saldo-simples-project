@@ -36,9 +36,9 @@ Por exemplo:
 | **Caso de Teste** 	| **CT04 – Registrar despesa** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - 	Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria. <br> RF-02 - Classificar despesas como recorrentes ou variáveis.|
-| Objetivo do Teste 	| Verificar se o usuário consegue se registrar com e-mail e senha. |
-| Passos 	| - Abrir app → “Criar Conta”  <br> - Informar nome, e-mail e senha <br> - Confirmar registro <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - Mensagem de sucesso e acesso à tela inicial. |
+| Objetivo do Teste 	| Confirmar cadastro de despesa com valor, categoria e data. |
+| Passos 	| - Tela “Despesas” → “Adicionar”  <br> - Inserir dados <br> - Salvar <br> |
+|Critério de Êxito | - Despesa listada corretamente. |
 |  	|  	|
 
 
