@@ -15,11 +15,11 @@ Por exemplo:
 | Passos 	| - Abrir app → “Criar Conta”  <br> - Informar nome, e-mail e senha <br> - Confirmar registro <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
 |Critério de Êxito | - Mensagem de sucesso e acesso à tela inicial. |
 |  	|  	|
-| **Caso de Teste** 	| **CT01 – Cadastrar novo usuário** 	|
+| **Caso de Teste** 	| **CT02 – Realizar login** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - 	Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se registrar com e-mail e senha. |
-| Passos 	| - Abrir app → “Criar Conta”  <br> - Informar nome, e-mail e senha <br> - Confirmar registro <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+| Objetivo do Teste 	| Validar o login com credenciais válidas. |
+| Passos 	| - Abrir app → “Entrar”   <br> - Inserir e-mail e senha <br> - Clicar em “Login” <br> |
 |Critério de Êxito | - Mensagem de sucesso e acesso à tela inicial. |
 |  	|  	|
 | Caso de Teste 	| CT02 – Efetuar login	|
