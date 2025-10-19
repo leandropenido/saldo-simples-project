@@ -10,7 +10,7 @@ Por exemplo:
  
 | **Caso de Teste** 	| **CT01 – Cadastrar novo usuário** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-01 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+|	Requisito Associado 	| RF-01 - 	Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se registrar com e-mail e senha. |
 | Passos 	| - Abrir app → “Criar Conta”  <br> - Informar nome, e-mail e senha <br> - Confirmar registro <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
 |Critério de Êxito | - Mensagem de sucesso e acesso à tela inicial. |
