@@ -189,6 +189,16 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
+## Metodo MosCow
+<img src="img/MosCow Must Have.png" alt="Must Have" width="1478" height="1456"/>
+
+<img src="img/MosCow Should Have.png" alt="Should Have" width="1478" height="1456"/>
+
+<img src="img/MosCow Could Have.png" alt="Could Have" width="1478" height="1456"/>
+
+<img src="img/MosCow Wont Have.png" alt="Must Have" width="1478" height="1456"/>
+
+
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
