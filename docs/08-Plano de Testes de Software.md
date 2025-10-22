@@ -65,6 +65,14 @@ Por exemplo:
 |Critério de Êxito | - Gráfico exibe valores corretos. |
 |  	|  	|
 
+| **Caso de Teste** 	| **CT08 – Exportar dados em PDFl** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-05 - 	Permitir exportação dos dados em PDF. |
+| Objetivo do Teste 	| Verificar exportação de dados financeiros. |
+| Passos 	| - Tela “Relatórios” → “Exportar PDF”    <br>  |
+|Critério de Êxito | - Arquivo PDF gerado e acessível. |
+|  	|  	|
+
 
  
 > **Links Úteis**:
