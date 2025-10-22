@@ -57,6 +57,14 @@ Por exemplo:
 |Critério de Êxito | - Alerta exibido ao atingir 90% do orçamento. |
 |  	|  	|
 
+| **Caso de Teste** 	| **CT07 – Gerar relatório mensal** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-04 - 	Exibir relatórios simples (gráficos comparativos entre meses e gastos por categoria). |
+| Objetivo do Teste 	| Validar exibição de gráficos comparativos. |
+| Passos 	| - Acessar “Relatórios”    <br> - Selecionar período  <br> - Visualizar gráfico  <br> |
+|Critério de Êxito | - Gráfico exibe valores corretos. |
+|  	|  	|
+
 
  
 > **Links Úteis**:
