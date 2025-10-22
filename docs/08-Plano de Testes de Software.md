@@ -73,6 +73,14 @@ Por exemplo:
 |Critério de Êxito | - Arquivo PDF gerado e acessível. |
 |  	|  	|
 
+| **Caso de Teste** 	| **CT09 – Exibir resumo semanal** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-07 - Exibir resumo semanal de gastos e saldo disponível.. |
+| Objetivo do Teste 	| Testar exibição do saldo semanals. |
+| Passos 	| - Tela “Resumo”     <br> - Verificar saldo disponível  <br>|
+|Critério de Êxito | - Valores exibidos corretamente. |
+|  	|  	|
+
 
  
 > **Links Úteis**:
