@@ -41,6 +41,14 @@ Por exemplo:
 |Critério de Êxito | - Despesa listada corretamente. |
 |  	|  	|
 
+| **Caso de Teste** 	| **CT05 – Registrar receita** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-01 - 	Permitir o cadastro de receitas e despesas, com valor, data, descrição e categoria. |
+| Objetivo do Teste 	| Garantir que a receita é salva corretamente. |
+| Passos 	| - Tela “Receitas” → “Adicionar”   <br> - Informar dados e categoria <br> - Salvar <br> |
+|Critério de Êxito | - Receita aparece na listagem. |
+|  	|  	|
+
 
  
 > **Links Úteis**:
