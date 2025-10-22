@@ -130,13 +130,6 @@ Oportunidades de Melhoria:
 
 - Experiência do usuário: Melhorar usabilidade com atalhos para despesas recorrentes e categorização inteligente.
 
-![BPMN_Controle_de_Despesas](https://github.com/user-attachments/assets/8ffc8960-89f6-4993-b318-c3fe2c334b27)
-
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
 <img width="2520" height="1197" alt="Image" src="https://github.com/user-attachments/assets/6f712f41-948b-40f0-8994-bb6801db696d" />
 
 ## Indicadores de Desempenho
