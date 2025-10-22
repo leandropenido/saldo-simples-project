@@ -49,6 +49,14 @@ Por exemplo:
 |Critério de Êxito | - Receita aparece na listagem. |
 |  	|  	|
 
+| **Caso de Teste** 	| **CT06 – Definir orçamento por categoria** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-03 - 	Definir orçamento mensal por categoria, com alertas ao se aproximar do limite. |
+| Objetivo do Teste 	| Verificar criação e alerta de orçamento. |
+| Passos 	| - Tela “Orçamento” → Inserir limite    <br> - Registrar despesa até atingir limite <br>  |
+|Critério de Êxito | - Alerta exibido ao atingir 90% do orçamento. |
+|  	|  	|
+
 
  
 > **Links Úteis**:
