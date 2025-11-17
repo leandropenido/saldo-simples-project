@@ -2,8 +2,6 @@
 
 Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
 
-Um plano de teste de usabilidade deverá conter: 
-
 ## Definição do(s) objetivo(s)
 
 Os testes de usabilidade têm como finalidade avaliar a experiência real dos usuários ao interagir com as principais funcionalidades do app. Os objetivos principais são:
