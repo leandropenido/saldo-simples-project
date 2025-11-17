@@ -28,8 +28,11 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
 ## Definição de cenários de teste
 
 **Cenário 1** – Registrar uma despesa no aplicativo
+
 **Objetivo:** Avaliar se o usuário consegue registrar uma despesa de forma rápida, clara e intuitiva.
+
 **Contexto:** O usuário está no supermercado e deseja registrar imediatamente uma compra de R$ 85,00.
+
 **Tarefa(s):**
  - Abrir o aplicativo Saldo Simples.
  - Acessar a tela Cadastro de Despesas.
@@ -43,8 +46,11 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - Não requer auxílio do observador.
 
 **Cenário 2** – Visualizar o saldo atualizado
+
 **Objetivo:** Verificar se o usuário compreende rapidamente seu saldo disponível no início do uso diário.
+
 **Contexto:** O usuário abre o app pela manhã e deseja saber quanto ainda pode gastar no dia/mês.
+
 **Tarefa(s):**
  - Abrir o app.
  - Visualizar o saldo na tela inicial ou seção de resumo.
@@ -56,8 +62,11 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - A interface é clara e não causa interpretação ambígua.
 
 **Cenário 3** – Consultar relatório de gastos por categoria
+
 **Objetivo** Avaliar a clareza dos gráficos e relatórios do aplicativo.
+
 **Contexto** O usuário deseja entender em quais categorias gastou mais no mês.
+
 **Tarefas**
  - Acessar a tela de relatórios.
  - Selecionar o período atual.
@@ -69,8 +78,11 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - Identifica a categoria de maior gasto sem cometer erros.
 
 **Cenário 4** – Definir um orçamento mensal por categoria
+
 **Objetivo** Avaliar se o processo de estabelecimento de metas é simples e motivador.
+
 **Contexto** O usuário deseja não gastar mais de R$ 300,00 com lazer no próximo mês.
+
 **Tarefas**
  - Acessar o menu de orçamentos.
  - Criar ou editar orçamento para categoria “Lazer”.
