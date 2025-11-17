@@ -46,6 +46,34 @@ Os cenários representam tarefas reais que os usuários executam no sistema. Nes
 - Tarefa: A ação que o usuário deve realizar.
 - Critério de sucesso: Como determinar se a tarefa foi concluída corretamente.
 
+**Cenário 1** – Registrar uma despesa no aplicativo
+
+**Objetivo:** Avaliar se o usuário consegue registrar uma despesa de forma rápida, clara e intuitiva.
+
+**Contexto:** O usuário está no supermercado e deseja registrar imediatamente uma compra de R$ 85,00.
+
+**Tarefa(s):**
+
+ - Abrir o aplicativo Saldo Simples.
+
+ - Acessar a tela Cadastro de Despesas.
+
+ - Preencher valor, categoria, data e descrição.
+
+ - Salvar a despesa.
+
+**Critério(s) de Sucesso(s):**
+
+ - Usuário encontra facilmente o botão “Cadastrar Despesa”.
+
+ - Consegue preencher todos os campos sem dúvidas.
+
+ - Registra a despesa em menos de 1 minuto.
+
+ - Não requer auxílio do observador.
+
+
+
 **Exemplo: Cenário 1**
 
 **Objetivo:** Avaliar a facilidade e eficiência do usuário em pesquisar, adicionar um produto ao carrinho e finalizar a compra sem dificuldades.
