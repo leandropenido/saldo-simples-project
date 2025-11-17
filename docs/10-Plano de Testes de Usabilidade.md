@@ -15,13 +15,13 @@ Alguns exemplos de objetivos são:
 
 Os testes de usabilidade têm como finalidade avaliar a experiência real dos usuários ao interagir com as principais funcionalidades do app. Os objetivos principais são:
 
-    1. Verificar se usuários conseguem realizar tarefas essenciais (cadastro de receitas/despesas, consulta de saldo, visualização de relatórios).
-    2. Identificar barreiras na navegação, incluindo dificuldade de localizar funções ou compreender elementos da interface.
-    3. Avaliar eficiência e fluidez das interações, considerando tempo, número de erros e necessidade de auxílio.
-    4. Avaliar clareza e entendimento dos elementos visuais, considerando o perfil de usuários com pouca familiaridade tecnológica
-    5. Identificar pontos de frustração ou confusão durante o fluxo geral.
-    6. Validar se o sistema atende às expectativas das personas descritas no projeto.
-    7. Avaliar acessibilidade básica, como tamanho de fonte, contraste e facilidade de leitura.
+ - Verificar se usuários conseguem realizar tarefas essenciais (cadastro de receitas/despesas, consulta de saldo, visualização de relatórios).
+ - Identificar barreiras na navegação, incluindo dificuldade de localizar funções ou compreender elementos da interface.
+ - Avaliar eficiência e fluidez das interações, considerando tempo, número de erros e necessidade de auxílio.
+ - Avaliar clareza e entendimento dos elementos visuais, considerando o perfil de usuários com pouca familiaridade tecnológica
+ - Identificar pontos de frustração ou confusão durante o fluxo geral.
+ - Validar se o sistema atende às expectativas das personas descritas no projeto.
+ - Avaliar acessibilidade básica, como tamanho de fonte, contraste e facilidade de leitura.
 
 ## Seleção dos participantes
 
