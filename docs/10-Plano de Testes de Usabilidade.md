@@ -39,13 +39,6 @@ Ideal: Entre 8 e 12 para maior diversidade.
 
 ## Definição de cenários de teste
 
-Os cenários representam tarefas reais que os usuários executam no sistema. Neste projeto, cada grupo deverá definir, no mínimo, **CINCO cenários para a aplicação** e cada cenário deve incluir:
-
-- Objetivo: O que será avaliado.
-- Contexto: A situação que leva o usuário a interagir com o sistema.
-- Tarefa: A ação que o usuário deve realizar.
-- Critério de sucesso: Como determinar se a tarefa foi concluída corretamente.
-
 **Cenário 1** – Registrar uma despesa no aplicativo
 
 **Objetivo:** Avaliar se o usuário consegue registrar uma despesa de forma rápida, clara e intuitiva.
