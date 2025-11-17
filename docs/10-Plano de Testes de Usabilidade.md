@@ -35,7 +35,7 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - Acessar a tela Cadastro de Despesas.
  - Preencher valor, categoria, data e descrição.
  - Salvar a despesa.
- - 
+
 **Critérios de Sucesso:**
  - Usuário encontra facilmente o botão “Cadastrar Despesa”.
  - Consegue preencher todos os campos sem dúvidas.
@@ -62,7 +62,7 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - Acessar a tela de relatórios.
  - Selecionar o período atual.
  - Interpretar o gráfico/relatório apresentado.
- - 
+
 **Critérios de Sucesso**
  - Usuário encontra o menu de relatórios rapidamente.
  - Consegue compreender o gráfico sem instruções adicionais.
