@@ -32,6 +32,21 @@ Para garantir que o teste reflita o uso real do sistema, escolha participantes r
 - Diferentes níveis de familiaridade com tecnologia.
 - Pessoas com necessidades especiais (se aplicável).
 
+Critérios de Seleção
+
+    • Pessoas com diferentes níveis de familiaridade com tecnologia.
+    
+    • Usuários com perfis compatíveis com as 5 personas do documento:
+        ◦ Estudante 
+        ◦ Assistente administrativa
+        ◦ Motorista de aplicativo 
+        ◦ Dona de casa 
+        ◦ Freelancer 
+        
+    • Pessoas que já utilizam apps financeiros e pessoas que nunca utilizaram.
+    
+    • Usuários com idade entre 18 e 65 anos.
+
 **Quantidade recomendada:**
 Mínimo: 5 participantes.
 Ideal: Entre 8 e 12 para maior diversidade.
