@@ -94,6 +94,23 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
 - O processo leva no máximo 2 minutos.
  - Usuário entende o que ocorrerá quando ultrapassar o limite.
 
+**Cenário 5** – Registrar receita e visualizar atualização no saldo
+
+**Objetivo** Avaliar se o fluxo de cadastro de receitas é compreendido e se o usuário percebe a alteração automática do saldo.
+
+**Contexto** O usuário recebe um freela de R$ 450,00 e deseja registrar no app.
+
+**Tarefas**
+ - Acessar “Cadastrar Receita”.
+ - Preencher valor, categoria (ex.: “Freelancer”) e data.
+ - Salvar receita.
+ - Voltar à tela inicial e verificar atualização do saldo.
+
+**Critérios de Sucesso**
+ - Usuário localiza o botão “Cadastrar Receita” facilmente.
+ - Sabe diferenciar receita de despesa.
+ - Percebe a alteração no saldo após o cadastro.
+
 
 ## Métodos de coleta de dados
 
