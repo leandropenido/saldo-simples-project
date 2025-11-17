@@ -46,24 +46,32 @@ Ideal: Entre 8 e 12 para maior diversidade.
 **Contexto:** O usuário está no supermercado e deseja registrar imediatamente uma compra de R$ 85,00.
 
 **Tarefa(s):**
-
  - Abrir o aplicativo Saldo Simples.
-
  - Acessar a tela Cadastro de Despesas.
-
  - Preencher valor, categoria, data e descrição.
-
  - Salvar a despesa.
 
-**Critério(s) de Sucesso(s):**
-
+**Critério(s) de Sucesso:**
  - Usuário encontra facilmente o botão “Cadastrar Despesa”.
-
  - Consegue preencher todos os campos sem dúvidas.
-
  - Registra a despesa em menos de 1 minuto.
-
  - Não requer auxílio do observador.
+
+**Cenário 2** – Visualizar o saldo atualizado
+
+**Objetivo:** Verificar se o usuário compreende rapidamente seu saldo disponível no início do uso diário.
+
+**Contexto:** O usuário abre o app pela manhã e deseja saber quanto ainda pode gastar no dia/mês.
+
+**Tarefa(s):**
+ - Abrir o app.
+ - Visualizar o saldo na tela inicial ou seção de resumo.
+ - Interpretar se está positivo/negativo e entender o que significa.
+
+**Critério(s) de Sucesso(s):**
+ - O usuário consegue localizar o saldo sem clicar em múltiplas telas.
+ - O saldo é compreendido sem explicações adicionais.
+ - A interface é clara e não causa interpretação ambígua.
 
 
 
