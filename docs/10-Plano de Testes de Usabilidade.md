@@ -35,7 +35,8 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - Acessar a tela Cadastro de Despesas.
  - Preencher valor, categoria, data e descrição.
  - Salvar a despesa.
-**Critério(s) de Sucesso:**
+ - 
+**Critérios de Sucesso:**
  - Usuário encontra facilmente o botão “Cadastrar Despesa”.
  - Consegue preencher todos os campos sem dúvidas.
  - Registra a despesa em menos de 1 minuto.
@@ -48,7 +49,8 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - Abrir o app.
  - Visualizar o saldo na tela inicial ou seção de resumo.
  - Interpretar se está positivo/negativo e entender o que significa.
-**Critério(s) de Sucesso(s):**
+   
+**Critérios de Sucesso(s):**
  - O usuário consegue localizar o saldo sem clicar em múltiplas telas.
  - O saldo é compreendido sem explicações adicionais.
  - A interface é clara e não causa interpretação ambígua.
@@ -60,6 +62,7 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - Acessar a tela de relatórios.
  - Selecionar o período atual.
  - Interpretar o gráfico/relatório apresentado.
+ - 
 **Critérios de Sucesso**
  - Usuário encontra o menu de relatórios rapidamente.
  - Consegue compreender o gráfico sem instruções adicionais.
@@ -73,6 +76,7 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - Criar ou editar orçamento para categoria “Lazer”.
  - Ajustar valor para R$ 300,00.
  - Salvar.
+   
 **Critérios de Sucesso**
  - Usuário encontra onde configurar orçamentos sem dificuldade.
 - O processo leva no máximo 2 minutos.
