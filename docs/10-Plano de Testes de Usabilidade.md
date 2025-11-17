@@ -114,9 +114,47 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
 
 ## Métodos de coleta de dados
 
-Os dados coletados devem ajudar a entender a experiência dos usuários e os dados podem ser coletados por observação direta incluindo métricas quantitativas (quantidade de cliques, número de erros, tempo gasto para cada tarefa etc.), métricas qualitativas (dificuldades, comentários etc.) e questionários pós-teste (A interface foi fácil de entender? Você encontrou dificuldades em alguma etapa? O que poderia ser melhorado?)
+**1. Observação Direta**
+ - Comportamento do usuário durante cada tarefa.
+ - Número de cliques.
+ - Número de erros.
+ - Tempo gasto por tarefa.
+ - Momentos de frustração, dúvidas ou hesitação.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+**2. Métricas Quantitativas**
+
+ - Tempo total por cenário.
+ - Taxa de conclusão de tarefa.
+ - Ocorrência de erro por tarefa.
+ - Necessidade de auxílio.
+
+**3. Métricas Qualitativas**
+
+ - Comentários espontâneos.
+ - Expressões de dúvida/confusão.
+ - Avaliação de clareza e satisfação.
+
+**4. Questionário Pós-Teste**
+
+Perguntas sugeridas:
+
+ - A interface foi fácil de entender?
+ - Alguma etapa foi confusa?
+ - Qual funcionalidade você achou mais difícil?
+ - O que poderia ser melhorado no fluxo geral?
+ - Em uma escala de 0 a 10, qual sua satisfação geral com o app?
+
+**Privacidade e LGPD**
+
+Nenhum dado pessoal identificável será armazenado ou divulgado.
+
+**Resultado esperado**
+
+Ao final, será possível identificar:
+ - Padrões de dificuldades relatadas.
+ - Pontos do fluxo que exigem melhorias.
+ - Elementos de navegação que confundem o usuário.
+ - Melhorias necessárias na interface, acessibilidade e clareza de informações
 
 As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
 
