@@ -61,7 +61,21 @@ Os testes de usabilidade têm como finalidade avaliar a experiência real dos us
  - O saldo é compreendido sem explicações adicionais.
  - A interface é clara e não causa interpretação ambígua.
 
+**Cenário 3** – Consultar relatório de gastos por categoria
 
+**Objetivo** Avaliar a clareza dos gráficos e relatórios do aplicativo.
+
+**Contexto** O usuário deseja entender em quais categorias gastou mais no mês.
+
+**Tarefas**
+ - Acessar a tela de relatórios.
+ - Selecionar o período atual.
+ - Interpretar o gráfico/relatório apresentado.
+
+**Critérios de Sucesso**
+ - Usuário encontra o menu de relatórios rapidamente.
+ - Consegue compreender o gráfico sem instruções adicionais.
+ - Identifica a categoria de maior gasto sem cometer erros.
 
 
 ## Métodos de coleta de dados
