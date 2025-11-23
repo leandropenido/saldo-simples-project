@@ -1,29 +1,25 @@
-message: Please cite this software using these metadata.
-title:
+title: Saldo Simples – Aplicativo de Controle de Despesas Pessoais
+
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - name-suffix: Professor
+  - family-names: Farias da Silva
+    given-names: Barbara
+  - family-names: Rezende Vieira
+    given-names: João
+  - family-names: Alves Penido
+    given-names: Leandro
+  - family-names: Oliveira Dias
+    given-names: Lucas Gabriel
+  - family-names: Andrade Rodrigues
+    given-names: Pedro
+  - name-suffix: Professor Udo Fritzke Junior
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+ 
 keywords:
-  - 
-  - 
+  - Controle de Despesas Pessoais
+  - Educação Financeira
+  - Aplicativo Mobile
+
 repository-code: 
 version: 1.0.0
-date-released: 2023-10-31
+
+date-released: 2025-11-23
