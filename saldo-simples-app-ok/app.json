@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "saldo-simples-expo",
+    "slug": "saldo-simples-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.saldosimplesexpo"
+    }
+  }
+}
