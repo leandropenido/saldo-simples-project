@@ -1,6 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
+using static SaldoSimples.Constants.DespesaEnum;
+
+
 namespace SaldoSimples.Models;
 
 [Table("Orcamento")]
@@ -18,6 +21,7 @@ public class Orcamento
 
   public decimal Meta { get; set; }
   
+  public Categoria Categoria {get;set;}
 
   [Required]
   public bool Recorrente { get; set; }

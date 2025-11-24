@@ -11,7 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 namespace SaldoSimples.Controllers
 {
 
-	public enum ErrorCode
+	public enum UserErrorCode
 	{
 		UserRegisterInvalid,
 		CouldNotLogIn,
@@ -54,12 +54,12 @@ namespace SaldoSimples.Controllers
 			{
 				if (user == null || !ModelState.IsValid)
 				{
-					return BadRequest(ErrorCode.UserRegisterInvalid.ToString());
+					return BadRequest(UserErrorCode.UserRegisterInvalid.ToString());
 				}
 				bool itemExists = await _userRepository.DoesItemExist(user.Id);
 				if (itemExists)
 				{
-					return StatusCode(StatusCodes.Status409Conflict, ErrorCode.UserIdInUse.ToString());
+					return StatusCode(StatusCodes.Status409Conflict, UserErrorCode.UserIdInUse.ToString());
 				}
 
 				if (!string.IsNullOrEmpty(user.SenhaString))
@@ -72,7 +72,7 @@ namespace SaldoSimples.Controllers
 			}
 			catch (Exception)
 			{
-				return BadRequest(ErrorCode.CouldNotCreateUser.ToString());
+				return BadRequest(UserErrorCode.CouldNotCreateUser.ToString());
 			}
 			return Ok(user);
 		}
@@ -85,12 +85,12 @@ namespace SaldoSimples.Controllers
 			{
 				if (loginRequest == null || !ModelState.IsValid)
 				{
-					return BadRequest(ErrorCode.RecordNotFound.ToString());
+					return BadRequest(UserErrorCode.RecordNotFound.ToString());
 				}
 				var usr = await _userRepository.FindByEmail(loginRequest.Email);
 				if (usr == null)
 				{
-					return BadRequest(ErrorCode.RecordNotFound.ToString());
+					return BadRequest(UserErrorCode.RecordNotFound.ToString());
 				}
 
 
@@ -98,7 +98,7 @@ namespace SaldoSimples.Controllers
 
 				if (!validPassword)
 				{
-					return BadRequest(ErrorCode.CouldNotLogIn.ToString());
+					return BadRequest(UserErrorCode.CouldNotLogIn.ToString());
 				}
 
 
@@ -143,7 +143,7 @@ namespace SaldoSimples.Controllers
 			catch (Exception)
 
 			{
-				return BadRequest(ErrorCode.CouldNotLogIn.ToString());
+				return BadRequest(UserErrorCode.CouldNotLogIn.ToString());
 			}
 
 		}
@@ -157,12 +157,12 @@ namespace SaldoSimples.Controllers
 				
 				if (user == null || !ModelState.IsValid)
 				{
-					return BadRequest(ErrorCode.UserRegisterInvalid.ToString());
+					return BadRequest(UserErrorCode.UserRegisterInvalid.ToString());
 				}
 				var existingUser = await _userRepository.Find(user.Id);
 				if (existingUser == null)
 				{
-					return NotFound(ErrorCode.RecordNotFound.ToString());
+					return NotFound(UserErrorCode.RecordNotFound.ToString());
 				}
 				var fotoDir = Path.Combine(_env.WebRootPath, "img", "users");
 				var extension = Path.GetExtension(user.UploadedFoto.FileName);
@@ -180,7 +180,7 @@ namespace SaldoSimples.Controllers
 			}
 			catch (Exception)
 			{
-				return BadRequest(ErrorCode.CouldNotUpdateUser.ToString());
+				return BadRequest(UserErrorCode.CouldNotUpdateUser.ToString());
 			}
 			return NoContent();
 		}
@@ -194,13 +194,13 @@ namespace SaldoSimples.Controllers
 				var user = await _userRepository.Find(id);
 				if (user == null)
 				{
-					return NotFound(ErrorCode.RecordNotFound.ToString());
+					return NotFound(UserErrorCode.RecordNotFound.ToString());
 				}
 				await _userRepository.Delete(id);
 			}
 			catch (Exception)
 			{
-				return BadRequest(ErrorCode.CouldNotDeleteUser.ToString());
+				return BadRequest(UserErrorCode.CouldNotDeleteUser.ToString());
 			}
 			return NoContent();
 		}

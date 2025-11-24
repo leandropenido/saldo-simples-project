@@ -4,7 +4,7 @@ namespace SaldoSimples.Constants
   {
     public enum Categoria
     {
-      Contas,
+      Contas = 1,
       Comida,
       Entretenimento,
       Lazer,

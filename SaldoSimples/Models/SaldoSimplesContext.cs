@@ -27,6 +27,12 @@ namespace SaldoSimples.Models
         .Property(i => i.Categoria)
         .HasColumnType("varchar(300)")
         .HasConversion<string>();
+      
+      modelBuilder.Entity<Orcamento>()
+       .Property(d => d.Categoria)
+       .HasColumnType("varchar(100)")
+       .HasConversion<string>();
+
     }
   }
 
