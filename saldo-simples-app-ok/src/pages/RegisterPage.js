@@ -39,7 +39,7 @@ export default function RegisterPage({ navigation }) {
   
 
   const postData = async (userData) => {
-    return await fetch('http://192.168.0.221:5107/api/Users', { method: 'POST',
+    return await fetch('http://192.168.100.100:5107/api/Users', { method: 'POST',
       headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},
       body: JSON.stringify(userData)
       })

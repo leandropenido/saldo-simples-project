@@ -43,7 +43,7 @@ export default function CadastroOrcamento({ navigation }) {
   );
 
   const getDespesaData = async () => {
-    return await fetch("http://192.168.0.221:5107/api/Despesa/", {
+    return await fetch(`http://192.168.100.100:5107/api/Despesa/user/${userId}`, {
       method: "GET",
       headers: {
         Accept: "application/json",
@@ -84,7 +84,7 @@ export default function CadastroOrcamento({ navigation }) {
   };
 
   const getOrcamentoData = async () => {
-    return await fetch("http://192.168.0.221:5107/api/Orcamento/", {
+    return await fetch(`http://192.168.100.100:5107/api/Orcamento/user/${userId}`, {
       method: "GET",
       headers: {
         Accept: "application/json",
@@ -111,6 +111,7 @@ export default function CadastroOrcamento({ navigation }) {
       orcamentoLoaded =true;
       const loadedLines = orcamentoReturned.data.map((orcamento) => {
         return {
+          id: orcamento.id,
           categoria: orcamento.categoria,
           saldo: orcamento.saldo,
           meta:Number(orcamento.meta),
@@ -135,7 +136,7 @@ export default function CadastroOrcamento({ navigation }) {
   }, []);
 
   const postData = async (userData) => {
-    return await fetch("http://192.168.0.221:5107/api/Orcamento/", {
+    return await fetch(`http://192.168.100.100:5107/api/Orcamento/user/${userId}`, {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -154,7 +155,7 @@ export default function CadastroOrcamento({ navigation }) {
   };
 
   const putData = async (userData) => {
-    return await fetch("http://192.168.0.221:5107/api/Orcamento/", {
+    return await fetch(`http://192.168.100.100:5107/api/Orcamento/user/${userId}`, {
       method: "PUT",
       headers: {
         Accept: "application/json",
@@ -167,12 +168,16 @@ export default function CadastroOrcamento({ navigation }) {
         if (!response.ok) {
           return { success: false, status: response.status };
         }
-        return response.json().then((data) => ({ success: true, data }));
+        return response.json().then((data) => 
+          {
+            return ({success: true, data })
+          });
       })
       .catch((err) => console.log(err));
   };
   const createOrcamento = async () => {
     const despesas = await sumDespesasByCathegory();
+    let everyThingOK = true;
 
     for (const linha of linhas) {
       if (!canSave) {
@@ -182,29 +187,29 @@ export default function CadastroOrcamento({ navigation }) {
         );
         return;
       }
-
       const saldo = despesas?.[linha.categoria] ?? 0;
 
       const orcamentoObj = {
-        userId,
         saldo,
         meta: Number(linha.meta),
         categoria: linha.categoria,
       };
       let result;
-      if (isDataLoaded) {
+      if (isDataLoaded && linha.id) {
+        orcamentoObj.id = linha.id;
         result = await putData(orcamentoObj);
       } else {
         result = await postData(orcamentoObj);
       }
-      if (result.success) {
-        Alert.alert("Sucesso", "Cadastro de orçamento realizado com sucesso!");
-        navigation.navigate("Despesa");
-      } else if (result.status) {
-        Alert.alert("Tente novamente!", "Dados inválidos!");
-      } else {
-        Alert.alert("Erro", "Falha ao cadastrar orçamento!");
+      if (!result.success) {
+        everyThingOK = false;
       }
+    }
+    if (everyThingOK) {
+      Alert.alert("Sucesso", "Cadastro de orçamento realizado com sucesso!");
+      navigation.navigate("Despesa");
+    } else {
+      Alert.alert('Falha!', 'Falha ao salvar o orçamento!');
     }
   };
 

@@ -19,6 +19,11 @@ namespace SaldoSimples.Services
             return await _orcamento.Orcamentos.ToListAsync();
         }
 
+        public async Task<List<Orcamento>> GetOrcamentoByUser(int userId)
+        {
+            return await _orcamento.Orcamentos.Where(o => o.UserId == userId).ToListAsync();
+        }
+
         public async Task<bool> DoesItemExist(int id)
         {
             return await _orcamento.Orcamentos.AnyAsync(item => item.Id == id);

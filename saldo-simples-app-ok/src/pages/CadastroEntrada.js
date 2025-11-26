@@ -34,7 +34,7 @@ export default function CadastroEntrada({ navigation }) {
     (entrada) => entrada.categoria.length > 0 && entrada.valor > 0
   );
   const postData = async (userData) => {
-    return await fetch("http://192.168.0.221:5107/api/Receita/", {
+    return await fetch("http://192.168.100.100:5107/api/Receita/", {
       method: "POST",
       headers: {
         Accept: "application/json",

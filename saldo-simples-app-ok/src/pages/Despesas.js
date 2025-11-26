@@ -1,4 +1,4 @@
-import React , {useEffect }from "react";
+import React, { useEffect, useState } from "react";
 import {
   ScrollView,
   Dimensions,
@@ -6,6 +6,7 @@ import {
   Text,
   View,
   Image,
+  Alert,
   TouchableOpacity,
 } from "react-native";
 import { Button, ProgressBar } from "react-native-paper";
@@ -19,23 +20,67 @@ import { getUser } from "../global/User";
 
 const Despesas = ({ navigation }) => {
   const { userId, userToken, isLogged } = getUser();
+  const [despesas, setDespesas] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!isLogged) {
-      navigation.replace("BlankPage");
-    }
+    if (isLogged) {
+      showDespesa();
+    } 
+    else navigation.navigate('BlankPage')
   }, [isLogged, navigation]);
 
   if (!isLogged) {
     return null;
   }
+  const getOrcamentoData = async () => {
+    return await fetch(`http://192.168.100.100:5107/api/Orcamento/user/${userId}`, {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${userToken}`,
+      },
+    })
+      .then((response) => {
+        if (!response.ok) {
+          return { success: false, status: response.status };
+        }
+        return response.json().then((data) => ({ success: true, data }));
+      })
+      .catch((err) => console.log(err));
+  };
 
-  const despesas = [
-    { nome: "Contas", atual: 1100, total: 1100, cor: "#E53935" },
-    { nome: "Comida", atual: 190, total: 400, cor: "#FB8C00" },
-    { nome: "Entretenimento", atual: 210, total: 300, cor: "#410287" },
-    { nome: "Transporte", atual: 150, total: 400, cor: "#74FF73" },
-  ];
+  async function showDespesa() {
+    const resultado = await getOrcamentoData();
+    if (!resultado.success) {
+      Alert.alert("Erro", "Não foi possivel carregar os dados!");
+      return;
+    }
+
+    const cores = ["#E53935","#FB8C00","#410287","#74FF73",]
+    const nomes = ["Contas", "Comida", "Entretenimento", "Transporte"];
+    const listas = []
+    let i = 0
+    
+    for (let dado of resultado.data) {
+      listas.push(
+        {
+          nome: nomes[i],
+          atual: dado.saldo ?? 0,
+          total: dado.meta ?? 0,
+          cor: cores[i],
+        }
+      )
+      i++;
+      if (i >= 4) {
+        break;
+      }
+
+    }
+    setDespesas(listas);
+    setLoading(false);
+  }
 
   const totalGasto = despesas.reduce((acc, item) => acc + item.atual, 0);
   const totalDisponivel = despesas.reduce((acc, item) => acc + item.total, 0);

@@ -7,6 +7,7 @@ namespace SaldoSimples.Interfaces
         Task<bool> DoesItemExist(int id);
         Task<IEnumerable<Orcamento>> All();
         Task<Orcamento?> Find(int id);
+        Task<List<Orcamento>> GetOrcamentoByUser(int userId);
         Task Insert(Orcamento orcamento);
         Task Update(Orcamento orcamento);
         Task Delete(int id);

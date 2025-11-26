@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SaldoSimples.Interfaces;
 using SaldoSimples.Models;
 
@@ -22,7 +23,6 @@ namespace SaldoSimples.Controllers
 	public class OrcamentoController : ControllerBase
 	{
 		private readonly IOrcamentoRepository _orcamentoRepository;
-
 		public OrcamentoController(IOrcamentoRepository orcamentoRepository)
 		{
 			_orcamentoRepository = orcamentoRepository;
@@ -35,8 +35,15 @@ namespace SaldoSimples.Controllers
 			return Ok(await _orcamentoRepository.All());
 		}
 
-		[HttpPost]
-		public async Task<IActionResult> Create([FromBody] Orcamento orcamento)
+		[HttpGet("user/{userId}")] 
+		public async Task<IActionResult> GetOrcamentoByUser(int userId)
+		{
+			var orcamentos = await _orcamentoRepository.GetOrcamentoByUser(userId);
+			return Ok(orcamentos);
+    }
+
+		[HttpPost("user/{userId}")]
+		public async Task<IActionResult> Create(int userId, [FromBody] Orcamento orcamento)
 		{
 			try
 			{
@@ -50,6 +57,8 @@ namespace SaldoSimples.Controllers
 					return StatusCode(StatusCodes.Status409Conflict, OrcamentoErrorCode.OrcamentoIdInUse.ToString());
 				}
 
+				orcamento.UserId =userId;
+
 				await _orcamentoRepository.Insert(orcamento);
 			}
 			catch (Exception)
@@ -59,8 +68,8 @@ namespace SaldoSimples.Controllers
 			return Ok(orcamento);
 		}
 
-		[HttpPut]
-		public async Task<IActionResult> Edit([FromBody] Orcamento orcamento)
+		[HttpPut("user/{userId}")]
+		public async Task<IActionResult> Edit(int userId, [FromBody] Orcamento orcamento)
 		{
 			try
 			{
@@ -78,14 +87,15 @@ namespace SaldoSimples.Controllers
 				existingOrcamento.Saldo = orcamento.Saldo;
 				existingOrcamento.Meta = orcamento.Meta;
 				existingOrcamento.Categoria = orcamento.Categoria;
-			
+				existingOrcamento.UserId = userId;
+
 				await _orcamentoRepository.Update(existingOrcamento);
 			}
 			catch (Exception)
 			{
 				return BadRequest(OrcamentoErrorCode.CouldNotUpdateOrcamento.ToString());
 			}
-			return NoContent();
+			return Ok(orcamento);
 		}
 
 		[HttpDelete("{id}")]

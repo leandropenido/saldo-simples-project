@@ -1,6 +1,7 @@
 ﻿using SaldoSimples.Interfaces;
 using SaldoSimples.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SaldoSimples.Services
 {
@@ -16,6 +17,12 @@ namespace SaldoSimples.Services
         public async Task<IEnumerable<Despesa>> All()
         {
             return await _despesa.Despesas.ToListAsync();
+        }
+
+
+        public async Task<List<Despesa>> GetDespesaByUser(int userId)
+        {
+            return await _despesa.Despesas.Where(o => o.UserId == userId).ToListAsync();
         }
 
         public async Task<bool> DoesItemExist(int id)

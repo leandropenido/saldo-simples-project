@@ -34,8 +34,16 @@ namespace SaldoSimples.Controllers
 			return Ok(await _despesaRepository.All());
 		}
 
-		[HttpPost]
-		public async Task<IActionResult> Create([FromBody] Despesa despesa)
+		[HttpGet("user/{userId}")]
+		public async Task<IActionResult> GetDespesaByUser(int userId)
+
+    {
+      var despesas = await _despesaRepository.GetDespesaByUser(userId);
+			return Ok(despesas);
+    }
+
+		[HttpPost("user/{userId}")]
+		public async Task<IActionResult> Create(int userId, [FromBody] Despesa despesa)
 		{
 			try
 			{
@@ -49,6 +57,8 @@ namespace SaldoSimples.Controllers
 					return StatusCode(StatusCodes.Status409Conflict, DespesaErrorCode.DespesaIdInUse.ToString());
 				}
 
+				despesa.UserId = userId;
+
 				await _despesaRepository.Insert(despesa);
 			}
 			catch (Exception)
@@ -58,8 +68,8 @@ namespace SaldoSimples.Controllers
 			return Ok(despesa);
 		}
 
-		[HttpPut]
-		public async Task<IActionResult> Edit([FromBody] Despesa despesa)
+		[HttpPut("user/{userId}")]
+		public async Task<IActionResult> Edit(int userId, [FromBody] Despesa despesa)
 		{
 			try
 			{
@@ -76,7 +86,8 @@ namespace SaldoSimples.Controllers
 				existingDespesa.Categoria = despesa.Categoria;
 				existingDespesa.Valor = despesa.Valor;
 				existingDespesa.Recorrente = despesa.Recorrente;
-        
+				existingDespesa.UserId = userId;
+
 				await _despesaRepository.Update(existingDespesa);
 			}
 			catch (Exception)
