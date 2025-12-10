@@ -40,7 +40,7 @@ export default function CadastroDeDespesasScreen({ navigation }) {
     (linha) => linha.categoria > 0 && linha.valor > 0
   );
   const postData = async (userData) => {
-    return await fetch(`http://192.168.100.100:5107/api/Despesa/user/${userId}`, {
+    return await fetch(`http://.../api/Despesa/user/${userId}`, {
       method: "POST",
       headers: {
         Accept: "application/json",

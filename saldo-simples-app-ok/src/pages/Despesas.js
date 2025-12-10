@@ -34,7 +34,7 @@ const Despesas = ({ navigation }) => {
     return null;
   }
   const getOrcamentoData = async () => {
-    return await fetch(`http://192.168.100.100:5107/api/Orcamento/user/${userId}`, {
+    return await fetch(`http://.../api/Orcamento/user/${userId}`, {
       method: "GET",
       headers: {
         Accept: "application/json",

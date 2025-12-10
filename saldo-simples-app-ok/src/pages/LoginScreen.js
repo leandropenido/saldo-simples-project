@@ -25,7 +25,7 @@ function LoginScreen({ navigation }) {
   const [senha, setSenha] = React.useState("");
 
   const postData = async (userData) => {
-    return await fetch("http://192.168.100.100:5107/api/Users/login", {
+    return await fetch("http://.../api/Users/login", {
       method: "POST",
       headers: {
         Accept: "application/json",

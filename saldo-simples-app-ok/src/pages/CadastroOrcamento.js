@@ -43,7 +43,7 @@ export default function CadastroOrcamento({ navigation }) {
   );
 
   const getDespesaData = async () => {
-    return await fetch(`http://192.168.100.100:5107/api/Despesa/user/${userId}`, {
+    return await fetch(`http://.../api/Despesa/user/${userId}`, {
       method: "GET",
       headers: {
         Accept: "application/json",
@@ -84,7 +84,7 @@ export default function CadastroOrcamento({ navigation }) {
   };
 
   const getOrcamentoData = async () => {
-    return await fetch(`http://192.168.100.100:5107/api/Orcamento/user/${userId}`, {
+    return await fetch(`http://.../api/Orcamento/user/${userId}`, {
       method: "GET",
       headers: {
         Accept: "application/json",
@@ -136,7 +136,7 @@ export default function CadastroOrcamento({ navigation }) {
   }, []);
 
   const postData = async (userData) => {
-    return await fetch(`http://192.168.100.100:5107/api/Orcamento/user/${userId}`, {
+    return await fetch(`http://.../api/Orcamento/user/${userId}`, {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -155,7 +155,7 @@ export default function CadastroOrcamento({ navigation }) {
   };
 
   const putData = async (userData) => {
-    return await fetch(`http://192.168.100.100:5107/api/Orcamento/user/${userId}`, {
+    return await fetch(`http://.../api/Orcamento/user/${userId}`, {
       method: "PUT",
       headers: {
         Accept: "application/json",
